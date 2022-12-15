@@ -1,0 +1,18 @@
+div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    
+}
+p{
+    
+    display: flex;
+    color: white;
+    font-size: 20px;
+    background-color: grey;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 10px;
+}

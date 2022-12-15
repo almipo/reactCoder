@@ -1,0 +1,40 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    background-color:rgb(200, 197, 197);
+}
+
+.Brand{
+    margin: 20px;
+}
+
+.Secciones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    margin: 20px;
+    height: auto;
+    width: 100%;
+    background-color:rgb(200, 197, 197);
+
+}
+p{  
+    display: flex;
+    color: white;
+    font-size: 20px;
+    background-color: grey;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 20px;
+}
+.Carrito{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
