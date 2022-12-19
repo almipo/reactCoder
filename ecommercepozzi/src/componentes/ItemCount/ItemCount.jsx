@@ -12,7 +12,7 @@ export const ItemCount = () => {
         setearContador(contador + 1) ;
     };
     const  handleDiscount= () => {
-        setearContador (contador -1);
+        if(contador >1) setearContador(contador-1)
     };
 
     return (

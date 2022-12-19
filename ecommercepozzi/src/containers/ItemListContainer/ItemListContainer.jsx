@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 import { Link, useParams } from "react-router-dom"
-import { ItemCount } from "../../componentes/itemCount/itemCount"
-import { gFetch } from "../../helpers/gfetch"
+import { ItemCount } from "../../componentes/ItemCount/ItemCount"
+import { gFetch } from "../../helpers/gFetch"
 
 
 
@@ -56,7 +56,7 @@ export const ItemListContainer = ( { Greeting } ) => {
                                     </div>
                         )}
             
-            <ItemCount/>
+            
 
         </>
     )
